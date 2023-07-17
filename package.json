@@ -1,0 +1,29 @@
+{
+  "name": "konva-server",
+  "version": "0.0.1",
+  "description": "using socket.io to sync whiteboard",
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "connect": "^3.7.0",
+    "connect-flash": "^0.1.1",
+    "connect-pg-simple": "^8.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "pg": "^8.11.0",
+    "pg-pool": "^3.6.0",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
